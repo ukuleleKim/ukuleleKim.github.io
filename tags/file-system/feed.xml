@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>DevOps 여행을 위한 안내서</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>DevOps 여행을 시작한 당신을 위해</description>
+      <language>en-us</language>
+      <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
+      <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
+      <lastBuildDate>Tue, 07 Nov 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/file-system/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231107</guid>
+    <title>Docker에서 사용하는 파일 시스템</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231107</link>
+    <description>Docker에서 사용하는 파일 시스템(UFS)에 대해 알아봅니다.</description>
+    <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>Docker</category><category>File System</category>
+  </item>
+
+    </channel>
+  </rss>

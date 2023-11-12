@@ -8,7 +8,7 @@
       <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
       <lastBuildDate>Fri, 10 Nov 2023 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/docker/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-1</guid>
@@ -18,16 +18,6 @@
     <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
     <category>Docker</category>
-  </item>
-
-  <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-2</guid>
-    <title>Jenkins와 Pipeline (Declarative vs Scripted)</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-2</link>
-    <description>Jenkins과 Pipeline에 대해 알아봅니다.</description>
-    <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
-    <category>Jenkins</category>
   </item>
 
   <item>
@@ -48,16 +38,6 @@
     <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
     <category>Docker</category><category>File System</category>
-  </item>
-
-  <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231106</guid>
-    <title>무중단 배포의 종류와 설명</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231106</link>
-    <description>무중단 배포는 크게 3가지 방식으로 나뉩니다.</description>
-    <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
-    <category>Deployment</category><category>CI/CD</category>
   </item>
 
   <item>

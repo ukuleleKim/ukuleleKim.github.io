@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>DevOps 여행을 위한 안내서</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>DevOps 여행을 시작한 당신을 위해</description>
+      <language>en-us</language>
+      <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
+      <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
+      <lastBuildDate>Mon, 06 Nov 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/cicd/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231106</guid>
+    <title>무중단 배포의 종류와 설명</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231106</link>
+    <description>무중단 배포는 크게 3가지 방식으로 나뉩니다.</description>
+    <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>Deployment</category><category>CI/CD</category>
+  </item>
+
+    </channel>
+  </rss>
