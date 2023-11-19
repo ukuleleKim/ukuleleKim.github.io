@@ -2,18 +2,18 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>DevOps 여행을 위한 안내서</title>
-      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <link>https://guide-to-devops.github.io/blog</link>
       <description>DevOps 여행을 시작한 당신을 위해</description>
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
       <lastBuildDate>Fri, 10 Nov 2023 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://guide-to-devops.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-1</guid>
+    <guid>https://guide-to-devops.github.io/blog/20231110-1</guid>
     <title>Dockerfile의 ADD vs COPY</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-1</link>
+    <link>https://guide-to-devops.github.io/blog/20231110-1</link>
     <description>Dockerfile의 ADD 명령어와 COPY 명령어를 비교해봅니다.</description>
     <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
@@ -21,9 +21,9 @@
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-2</guid>
+    <guid>https://guide-to-devops.github.io/blog/20231110-2</guid>
     <title>Jenkins와 Pipeline (Declarative vs Scripted)</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-2</link>
+    <link>https://guide-to-devops.github.io/blog/20231110-2</link>
     <description>Jenkins과 Pipeline에 대해 알아봅니다.</description>
     <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
@@ -31,9 +31,9 @@
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-3</guid>
+    <guid>https://guide-to-devops.github.io/blog/20231110-3</guid>
     <title>Dockerfile의 RUN, CMD, ENTRYPOINT 명령어</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-3</link>
+    <link>https://guide-to-devops.github.io/blog/20231110-3</link>
     <description>Dockerfile의 RUN, CMD, ENTRYPOINT 명령어를 비교해봅니다.</description>
     <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
@@ -41,9 +41,9 @@
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231107</guid>
+    <guid>https://guide-to-devops.github.io/blog/20231107</guid>
     <title>Docker에서 사용하는 파일 시스템</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231107</link>
+    <link>https://guide-to-devops.github.io/blog/20231107</link>
     <description>Docker에서 사용하는 파일 시스템(UFS)에 대해 알아봅니다.</description>
     <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
@@ -51,9 +51,9 @@
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231106</guid>
+    <guid>https://guide-to-devops.github.io/blog/20231106</guid>
     <title>무중단 배포의 종류와 설명</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231106</link>
+    <link>https://guide-to-devops.github.io/blog/20231106</link>
     <description>무중단 배포는 크게 3가지 방식으로 나뉩니다.</description>
     <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
@@ -61,9 +61,9 @@
   </item>
 
   <item>
-    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231104</guid>
+    <guid>https://guide-to-devops.github.io/blog/20231104</guid>
     <title>Docker에서 사용하는 네트워크</title>
-    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231104</link>
+    <link>https://guide-to-devops.github.io/blog/20231104</link>
     <description>Docker 네트워크의 종류</description>
     <pubDate>Sat, 04 Nov 2023 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>

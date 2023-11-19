@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/about</loc>
+    <loc>https://guide-to-devops.github.io/about</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog</loc>
+    <loc>https://guide-to-devops.github.io/blog</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app</loc>
+    <loc>https://guide-to-devops.github.io</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/projects</loc>
+    <loc>https://guide-to-devops.github.io/projects</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags</loc>
+    <loc>https://guide-to-devops.github.io/tags</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231104</loc>
+    <loc>https://guide-to-devops.github.io/blog/20231104</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231106</loc>
+    <loc>https://guide-to-devops.github.io/blog/20231106</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231107</loc>
+    <loc>https://guide-to-devops.github.io/blog/20231107</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-1</loc>
+    <loc>https://guide-to-devops.github.io/blog/20231110-1</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-2</loc>
+    <loc>https://guide-to-devops.github.io/blog/20231110-2</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/blog/20231110-3</loc>
+    <loc>https://guide-to-devops.github.io/blog/20231110-3</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/cicd</loc>
+    <loc>https://guide-to-devops.github.io/tags/cicd</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/deployment</loc>
+    <loc>https://guide-to-devops.github.io/tags/deployment</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/docker</loc>
+    <loc>https://guide-to-devops.github.io/tags/docker</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/file-system</loc>
+    <loc>https://guide-to-devops.github.io/tags/file-system</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/jenkins</loc>
+    <loc>https://guide-to-devops.github.io/tags/jenkins</loc>
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/network</loc>
+    <loc>https://guide-to-devops.github.io/tags/network</loc>
   </url>
 </urlset>
