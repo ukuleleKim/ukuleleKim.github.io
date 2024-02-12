@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
-      <lastBuildDate>Fri, 10 Nov 2023 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 12 Feb 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/tags/docker/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240212</guid>
+    <title>Dockerfile 작성 시 보안 측면에서의 모범 예시</title>
+    <link>https://guide-to-devops.github.io/blog/20240212</link>
+    <description>Dockerfile을 작성할 때 보안 측면에서 고려해야 할 점을 정리해봅니다.</description>
+    <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>Docker</category><category>Security</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20231110-1</guid>
     <title>Dockerfile의 ADD vs COPY</title>
