@@ -1,1 +1,0 @@
-{"pageProps":{"posts":[{"title":"Dockerfile 작성 시 보안 측면에서의 모범 예시","date":"2024-02-12T00:00:00.000Z","tags":["Docker","Security"],"draft":false,"summary":"Dockerfile을 작성할 때 보안 측면에서 고려해야 할 점을 정리해봅니다.","slug":"20240212"}],"tag":"security"},"__N_SSG":true}

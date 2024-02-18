@@ -56,7 +56,16 @@
   </url>
 
   <url>
+    <loc>https://guide-to-devops.github.io/blog/20240218</loc>
+    <lastmod>2024-02-18</lastmod>
+  </url>
+
+  <url>
     <loc>https://guide-to-devops.github.io/tags/cicd</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/container</loc>
   </url>
 
   <url>
