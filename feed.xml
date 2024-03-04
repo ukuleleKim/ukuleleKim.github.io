@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
-      <lastBuildDate>Sun, 18 Feb 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 04 Mar 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240304</guid>
+    <title>Kubernetes의 Admission Controller</title>
+    <link>https://guide-to-devops.github.io/blog/20240304</link>
+    <description>Kubernetes의 Admission Controller에 대해 알아보겠습니다.</description>
+    <pubDate>Mon, 04 Mar 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>Kubernetes/Policy</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240218</guid>
     <title>최근 보고된 컨테이너 엔진 관련 취약점: CVE-2024-21626</title>
