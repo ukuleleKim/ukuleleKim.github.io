@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
-      <lastBuildDate>Mon, 04 Mar 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 09 Mar 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240309</guid>
+    <title>컨테이너 보안 스캐닝</title>
+    <link>https://guide-to-devops.github.io/blog/20240309</link>
+    <description>컨테이너 보안 스캐닝이란 무엇일까요?</description>
+    <pubDate>Sat, 09 Mar 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>DevOps/Container</category><category>DevOps/Security</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240304</guid>
     <title>Kubernetes의 Admission Controller</title>
