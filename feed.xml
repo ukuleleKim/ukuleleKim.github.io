@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
-      <lastBuildDate>Sat, 09 Mar 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 10 Mar 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240310</guid>
+    <title>[컨테이너 보안 스캐닝 툴] Clair</title>
+    <link>https://guide-to-devops.github.io/blog/20240310</link>
+    <description>컨테이너 보안 스캐닝 툴 Clair에 대해 알아보겠습니다.</description>
+    <pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>DevOps/Container</category><category>DevOps/Security</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240309</guid>
     <title>컨테이너 보안 스캐닝</title>
