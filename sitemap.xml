@@ -76,6 +76,11 @@
   </url>
 
   <url>
+    <loc>https://guide-to-devops.github.io/blog/20240314</loc>
+    <lastmod>2024-03-14</lastmod>
+  </url>
+
+  <url>
     <loc>https://guide-to-devops.github.io/tags/cicd</loc>
   </url>
 
@@ -85,14 +90,6 @@
 
   <url>
     <loc>https://guide-to-devops.github.io/tags/deployment</loc>
-  </url>
-
-  <url>
-    <loc>https://guide-to-devops.github.io/tags/devopscontainer</loc>
-  </url>
-
-  <url>
-    <loc>https://guide-to-devops.github.io/tags/devopssecurity</loc>
   </url>
 
   <url>
@@ -108,11 +105,15 @@
   </url>
 
   <url>
-    <loc>https://guide-to-devops.github.io/tags/kubernetespolicy</loc>
+    <loc>https://guide-to-devops.github.io/tags/kubernetes</loc>
   </url>
 
   <url>
     <loc>https://guide-to-devops.github.io/tags/network</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/policy</loc>
   </url>
 
   <url>

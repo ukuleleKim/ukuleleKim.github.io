@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
-      <lastBuildDate>Sun, 18 Feb 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 14 Mar 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/tags/security/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240314</guid>
+    <title>CIS Kubernetes Benchmark</title>
+    <link>https://guide-to-devops.github.io/blog/20240314</link>
+    <description>CIS에서 발행하는 Kubernetes 보안 권장사항에 대해 알아보겠습니다</description>
+    <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>Kubernetes</category><category>Security</category>
+  </item>
+
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240310</guid>
+    <title>[컨테이너 보안 스캐닝 툴] Clair</title>
+    <link>https://guide-to-devops.github.io/blog/20240310</link>
+    <description>컨테이너 보안 스캐닝 툴 Clair에 대해 알아보겠습니다.</description>
+    <pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>Container</category><category>Security</category>
+  </item>
+
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240309</guid>
+    <title>컨테이너 보안 스캐닝</title>
+    <link>https://guide-to-devops.github.io/blog/20240309</link>
+    <description>컨테이너 보안 스캐닝이란 무엇일까요?</description>
+    <pubDate>Sat, 09 Mar 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>Container</category><category>Security</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240218</guid>
     <title>최근 보고된 컨테이너 엔진 관련 취약점: CVE-2024-21626</title>
