@@ -52,7 +52,7 @@
 
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240218</guid>
-    <title>최근 보고된 컨테이너 엔진 관련 취약점: CVE-2024-21626</title>
+    <title>2024년 1월에 발견된 컨테이너 엔진 관련 취약점: CVE-2024-21626</title>
     <link>https://guide-to-devops.github.io/blog/20240218</link>
     <description>2024년 1월 말 보고된 컨테이너 엔진 관련 취약점 CVE-2024-21626에 대해 살펴봅니다.</description>
     <pubDate>Sun, 18 Feb 2024 00:00:00 GMT</pubDate>
