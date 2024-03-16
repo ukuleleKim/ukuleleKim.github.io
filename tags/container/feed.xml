@@ -12,7 +12,7 @@
       
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240310</guid>
-    <title>[컨테이너 보안 스캐닝 툴] Clair</title>
+    <title>[Container Security Scanner] Clair</title>
     <link>https://guide-to-devops.github.io/blog/20240310</link>
     <description>컨테이너 보안 스캐닝 툴 Clair에 대해 알아보겠습니다.</description>
     <pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
