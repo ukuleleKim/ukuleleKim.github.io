@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
-      <lastBuildDate>Thu, 14 Mar 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 17 Mar 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/tags/security/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240317</guid>
+    <title>[CIS Kuberbetes Benchmark Tool] kube-bench</title>
+    <link>https://guide-to-devops.github.io/blog/20240317</link>
+    <description>CIS Kubernetes Benchmark 검토를 도와주는 kube-bench에 대해 알아보겠습니다</description>
+    <pubDate>Sun, 17 Mar 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <category>Kubernetes</category><category>Security</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240314</guid>
     <title>CIS Kubernetes Benchmark</title>
