@@ -8,7 +8,7 @@
       <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
       <lastBuildDate>Sun, 31 Mar 2024 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://guide-to-devops.github.io/tags/network/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://guide-to-devops.github.io/tags/cloud/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240331-1</guid>
@@ -28,16 +28,6 @@
     <pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
     <category>Cloud</category><category>Network</category>
-  </item>
-
-  <item>
-    <guid>https://guide-to-devops.github.io/blog/20231104</guid>
-    <title>Docker에서 사용하는 네트워크</title>
-    <link>https://guide-to-devops.github.io/blog/20231104</link>
-    <description>Docker 네트워크의 종류</description>
-    <pubDate>Sat, 04 Nov 2023 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
-    <category>Docker</category><category>Network</category>
   </item>
 
     </channel>

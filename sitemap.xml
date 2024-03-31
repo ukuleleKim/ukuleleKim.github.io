@@ -96,7 +96,21 @@
   </url>
 
   <url>
+    <loc>https://guide-to-devops.github.io/blog/20240331-1</loc>
+    <lastmod>2024-03-31</lastmod>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/blog/20240331</loc>
+    <lastmod>2024-03-31</lastmod>
+  </url>
+
+  <url>
     <loc>https://guide-to-devops.github.io/tags/cicd</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/cloud</loc>
   </url>
 
   <url>
