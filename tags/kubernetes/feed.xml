@@ -3,10 +3,10 @@
     <channel>
       <title>DevOps 여행을 위한 안내서</title>
       <link>https://guide-to-devops.github.io/blog</link>
-      <description>DevOps 여행에 필요한 지식을 공유합니다</description>
+      <description>DevOps와 클라우드 네이티브 관련 지식을 공유합니다</description>
       <language>en-us</language>
-      <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
-      <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
+      <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
+      <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
       <lastBuildDate>Sun, 17 Mar 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/tags/kubernetes/feed.xml" rel="self" type="application/rss+xml"/>
       
@@ -16,7 +16,7 @@
     <link>https://guide-to-devops.github.io/blog/20240317</link>
     <description>CIS Kubernetes Benchmark 검토를 도와주는 kube-bench에 대해 알아보겠습니다</description>
     <pubDate>Sun, 17 Mar 2024 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Kubernetes</category><category>Security</category>
   </item>
 
@@ -26,7 +26,7 @@
     <link>https://guide-to-devops.github.io/blog/20240314</link>
     <description>CIS에서 발행하는 Kubernetes 보안 권장사항에 대해 알아보겠습니다</description>
     <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Kubernetes</category><category>Security</category>
   </item>
 
@@ -36,7 +36,7 @@
     <link>https://guide-to-devops.github.io/blog/20240304</link>
     <description>Kubernetes의 Admission Controller에 대해 알아보겠습니다.</description>
     <pubDate>Mon, 04 Mar 2024 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Kubernetes</category><category>Policy</category>
   </item>
 

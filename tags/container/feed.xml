@@ -3,10 +3,10 @@
     <channel>
       <title>DevOps 여행을 위한 안내서</title>
       <link>https://guide-to-devops.github.io/blog</link>
-      <description>DevOps 여행에 필요한 지식을 공유합니다</description>
+      <description>DevOps와 클라우드 네이티브 관련 지식을 공유합니다</description>
       <language>en-us</language>
-      <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
-      <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
+      <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
+      <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
       <lastBuildDate>Sat, 23 Mar 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/tags/container/feed.xml" rel="self" type="application/rss+xml"/>
       
@@ -16,7 +16,7 @@
     <link>https://guide-to-devops.github.io/blog/20240323-1</link>
     <description>컨테이너 런타임 보안 툴 Falco을 소개합니다.</description>
     <pubDate>Sat, 23 Mar 2024 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Container</category><category>Security</category>
   </item>
 
@@ -26,7 +26,7 @@
     <link>https://guide-to-devops.github.io/blog/20240323</link>
     <description>Container Runtime Security(컨테이너 런타임 보안)에 대해 알아봅니다.</description>
     <pubDate>Sat, 23 Mar 2024 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Container</category><category>Security</category>
   </item>
 
@@ -36,7 +36,7 @@
     <link>https://guide-to-devops.github.io/blog/20240310</link>
     <description>컨테이너 보안 스캐닝 툴 Clair에 대해 알아보겠습니다.</description>
     <pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Container</category><category>Security</category>
   </item>
 
@@ -46,7 +46,7 @@
     <link>https://guide-to-devops.github.io/blog/20240309</link>
     <description>컨테이너 보안 스캐닝이란 무엇일까요?</description>
     <pubDate>Sat, 09 Mar 2024 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Container</category><category>Security</category>
   </item>
 
@@ -56,7 +56,7 @@
     <link>https://guide-to-devops.github.io/blog/20240218</link>
     <description>2024년 1월 말 보고된 컨테이너 엔진 관련 취약점 CVE-2024-21626에 대해 살펴봅니다.</description>
     <pubDate>Sun, 18 Feb 2024 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Security</category><category>Container</category>
   </item>
 

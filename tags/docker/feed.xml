@@ -3,10 +3,10 @@
     <channel>
       <title>DevOps 여행을 위한 안내서</title>
       <link>https://guide-to-devops.github.io/blog</link>
-      <description>DevOps 여행에 필요한 지식을 공유합니다</description>
+      <description>DevOps와 클라우드 네이티브 관련 지식을 공유합니다</description>
       <language>en-us</language>
-      <managingEditor>edu.ukulelekim@gmail.com (Ukulele Kim)</managingEditor>
-      <webMaster>edu.ukulelekim@gmail.com (Ukulele Kim)</webMaster>
+      <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
+      <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
       <lastBuildDate>Mon, 12 Feb 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/tags/docker/feed.xml" rel="self" type="application/rss+xml"/>
       
@@ -16,7 +16,7 @@
     <link>https://guide-to-devops.github.io/blog/20240212</link>
     <description>Dockerfile을 작성할 때 보안 측면에서 고려해야 할 점을 정리해봅니다.</description>
     <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Docker</category><category>Security</category>
   </item>
 
@@ -26,7 +26,7 @@
     <link>https://guide-to-devops.github.io/blog/20231110-1</link>
     <description>Dockerfile의 ADD 명령어와 COPY 명령어를 비교해봅니다.</description>
     <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Docker</category>
   </item>
 
@@ -36,7 +36,7 @@
     <link>https://guide-to-devops.github.io/blog/20231110-3</link>
     <description>Dockerfile의 RUN, CMD, ENTRYPOINT 명령어를 비교해봅니다.</description>
     <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Docker</category>
   </item>
 
@@ -46,7 +46,7 @@
     <link>https://guide-to-devops.github.io/blog/20231107</link>
     <description>Docker에서 사용하는 파일 시스템(UFS)에 대해 알아봅니다.</description>
     <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Docker</category><category>File System</category>
   </item>
 
@@ -56,7 +56,7 @@
     <link>https://guide-to-devops.github.io/blog/20231104</link>
     <description>Docker 네트워크의 종류</description>
     <pubDate>Sat, 04 Nov 2023 00:00:00 GMT</pubDate>
-    <author>edu.ukulelekim@gmail.com (Ukulele Kim)</author>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
     <category>Docker</category><category>Network</category>
   </item>
 
