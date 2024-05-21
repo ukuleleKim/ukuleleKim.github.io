@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
-      <lastBuildDate>Mon, 12 Feb 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 20 May 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/tags/docker/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240520</guid>
+    <title>로컬 환경에 배포해보는 ollama와 Open-WebUI</title>
+    <link>https://guide-to-devops.github.io/blog/20240520</link>
+    <description>로컬에 배포한 LLM은 어떻게 활용할 수 있을까요?</description>
+    <pubDate>Mon, 20 May 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
+    <category>AI/LLM</category><category>Docker</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240212</guid>
     <title>Dockerfile 작성 시 보안 측면에서의 모범 예시</title>

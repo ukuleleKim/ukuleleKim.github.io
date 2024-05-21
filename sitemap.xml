@@ -106,6 +106,15 @@
   </url>
 
   <url>
+    <loc>https://guide-to-devops.github.io/blog/20240520</loc>
+    <lastmod>2024-05-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/aillm</loc>
+  </url>
+
+  <url>
     <loc>https://guide-to-devops.github.io/tags/cicd</loc>
   </url>
 
