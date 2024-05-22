@@ -116,7 +116,7 @@
   </url>
 
   <url>
-    <loc>https://guide-to-devops.github.io/tags/aillm</loc>
+    <loc>https://guide-to-devops.github.io/tags/ai</loc>
   </url>
 
   <url>
@@ -149,6 +149,10 @@
 
   <url>
     <loc>https://guide-to-devops.github.io/tags/kubernetes</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/llm</loc>
   </url>
 
   <url>

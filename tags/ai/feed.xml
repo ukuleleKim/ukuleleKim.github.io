@@ -8,7 +8,7 @@
       <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
       <lastBuildDate>Wed, 22 May 2024 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://guide-to-devops.github.io/tags/aillm/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://guide-to-devops.github.io/tags/ai/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240522</guid>
@@ -17,7 +17,7 @@
     <description>LLMOps에 대해 알아봅니다.</description>
     <pubDate>Wed, 22 May 2024 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
-    <category>AI/LLM</category><category>LLMOps</category>
+    <category>AI</category><category>LLM</category><category>LLMOps</category>
   </item>
 
   <item>
@@ -27,7 +27,7 @@
     <description>로컬에 배포한 LLM은 어떻게 활용할 수 있을까요?</description>
     <pubDate>Mon, 20 May 2024 00:00:00 GMT</pubDate>
     <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
-    <category>AI/LLM</category><category>Docker</category>
+    <category>AI</category><category>LLM</category><category>Docker</category>
   </item>
 
     </channel>
