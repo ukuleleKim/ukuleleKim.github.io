@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
-      <lastBuildDate>Mon, 20 May 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 22 May 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240522</guid>
+    <title>LLMOps에 대해 알아보기</title>
+    <link>https://guide-to-devops.github.io/blog/20240522</link>
+    <description>LLMOps에 대해 알아봅니다.</description>
+    <pubDate>Wed, 22 May 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
+    <category>AI/LLM</category><category>LLMOps</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240520</guid>
     <title>로컬 환경에 배포해보는 ollama와 Open-WebUI</title>

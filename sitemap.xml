@@ -111,6 +111,11 @@
   </url>
 
   <url>
+    <loc>https://guide-to-devops.github.io/blog/20240522</loc>
+    <lastmod>2024-05-22</lastmod>
+  </url>
+
+  <url>
     <loc>https://guide-to-devops.github.io/tags/aillm</loc>
   </url>
 
@@ -144,6 +149,10 @@
 
   <url>
     <loc>https://guide-to-devops.github.io/tags/kubernetes</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/llmops</loc>
   </url>
 
   <url>
