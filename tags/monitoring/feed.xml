@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>DevOps 여행을 위한 안내서</title>
+      <link>https://guide-to-devops.github.io/blog</link>
+      <description>DevOps와 클라우드 네이티브 관련 지식을 공유합니다</description>
+      <language>en-us</language>
+      <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
+      <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
+      <lastBuildDate>Fri, 24 May 2024 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://guide-to-devops.github.io/tags/monitoring/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240524</guid>
+    <title>Fluent Bit에서 발견된 보안 취약점 - CVE-2024-4323</title>
+    <link>https://guide-to-devops.github.io/blog/20240524</link>
+    <description>로그 데이터 수집 툴 Fluent Bit에서 보안 취약점이 발견되었습니다.</description>
+    <pubDate>Fri, 24 May 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
+    <category>CVE</category><category>Monitoring</category><category>Security</category>
+  </item>
+
+    </channel>
+  </rss>

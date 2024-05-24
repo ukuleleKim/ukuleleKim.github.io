@@ -116,6 +116,11 @@
   </url>
 
   <url>
+    <loc>https://guide-to-devops.github.io/blog/20240524</loc>
+    <lastmod>2024-05-24</lastmod>
+  </url>
+
+  <url>
     <loc>https://guide-to-devops.github.io/tags/ai</loc>
   </url>
 
@@ -129,6 +134,10 @@
 
   <url>
     <loc>https://guide-to-devops.github.io/tags/container</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/cve</loc>
   </url>
 
   <url>
@@ -157,6 +166,10 @@
 
   <url>
     <loc>https://guide-to-devops.github.io/tags/llmops</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/monitoring</loc>
   </url>
 
   <url>
