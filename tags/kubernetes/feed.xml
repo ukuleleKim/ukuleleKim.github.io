@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
-      <lastBuildDate>Sun, 17 Mar 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 27 May 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/tags/kubernetes/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240527-cka-cert</guid>
+    <title>[Kubernetes 자격증 취득 시리즈] CKA 취득 후기</title>
+    <link>https://guide-to-devops.github.io/blog/20240527-cka-cert</link>
+    <description>CKA 자격증 취득 후기를 공유합니다.</description>
+    <pubDate>Mon, 27 May 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
+    <category>Kubernetes</category><category>Certificate</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240317</guid>
     <title>[CIS Kuberbetes Benchmark Tool] kube-bench</title>
