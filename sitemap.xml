@@ -131,6 +131,11 @@
   </url>
 
   <url>
+    <loc>https://guide-to-devops.github.io/blog/20240623-ollama-crewai</loc>
+    <lastmod>2024-06-23</lastmod>
+  </url>
+
+  <url>
     <loc>https://guide-to-devops.github.io/tags/ai</loc>
   </url>
 
@@ -148,6 +153,10 @@
 
   <url>
     <loc>https://guide-to-devops.github.io/tags/container</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/crewai</loc>
   </url>
 
   <url>
@@ -188,6 +197,10 @@
 
   <url>
     <loc>https://guide-to-devops.github.io/tags/network</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/ollama</loc>
   </url>
 
   <url>

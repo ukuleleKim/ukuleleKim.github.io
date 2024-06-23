@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
-      <lastBuildDate>Wed, 22 May 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 23 Jun 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/tags/llm/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/20240623-ollama-crewai</guid>
+    <title>로컬 환경에서 ollama와 crewAI로 블로그 포스팅 시스템 구축</title>
+    <link>https://guide-to-devops.github.io/blog/20240623-ollama-crewai</link>
+    <description>ollama와 crewAI를 로컬에 배포해서 블로그 포스팅 시스템을 구축해봤습니다.</description>
+    <pubDate>Sun, 23 Jun 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
+    <category>LLM</category><category>Ollama</category><category>CrewAI</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240522</guid>
     <title>LLMOps에 대해 알아보기</title>
