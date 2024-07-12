@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>edu.ukulelekim@gmail.com (Aiden Kim)</managingEditor>
       <webMaster>edu.ukulelekim@gmail.com (Aiden Kim)</webMaster>
-      <lastBuildDate>Sun, 23 Jun 2024 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 12 Jul 2024 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://guide-to-devops.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://guide-to-devops.github.io/blog/블로그 개편 안내</guid>
+    <title>블로그 개편 작업 안내</title>
+    <link>https://guide-to-devops.github.io/blog/블로그 개편 안내</link>
+    <description>DevOps 여행을 위한 안내서의 디자인과 기능이 개편될 예정입니다.</description>
+    <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
+    <author>edu.ukulelekim@gmail.com (Aiden Kim)</author>
+    <category>블로그 개편</category>
+  </item>
+
   <item>
     <guid>https://guide-to-devops.github.io/blog/20240623-ollama-crewai</guid>
     <title>로컬 환경에서 ollama와 crewAI로 블로그 포스팅 시스템 구축</title>

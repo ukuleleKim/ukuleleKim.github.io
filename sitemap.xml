@@ -136,6 +136,11 @@
   </url>
 
   <url>
+    <loc>https://guide-to-devops.github.io/blog/블로그 개편 안내</loc>
+    <lastmod>2024-07-12</lastmod>
+  </url>
+
+  <url>
     <loc>https://guide-to-devops.github.io/tags/ai</loc>
   </url>
 
@@ -209,5 +214,9 @@
 
   <url>
     <loc>https://guide-to-devops.github.io/tags/security</loc>
+  </url>
+
+  <url>
+    <loc>https://guide-to-devops.github.io/tags/블로그-개편</loc>
   </url>
 </urlset>
