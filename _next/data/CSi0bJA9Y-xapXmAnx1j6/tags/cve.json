@@ -1,1 +1,0 @@
-{"pageProps":{"posts":[{"title":"Fluent Bit에서 발견된 보안 취약점 - CVE-2024-4323","date":"2024-05-24T00:00:00.000Z","tags":["CVE","Monitoring","Security"],"draft":false,"summary":"로그 데이터 수집 툴 Fluent Bit에서 보안 취약점이 발견되었습니다.","slug":"20240524"}],"tag":"cve"},"__N_SSG":true}
