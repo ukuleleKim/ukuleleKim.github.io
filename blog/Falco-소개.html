@@ -19,11 +19,12 @@
 <li>사전 정의된 <strong>채널로 Output 전송</strong></li>
 </ol>
 <p>Falco는 동작 중인 컨테이너에서 생성되는 여러 요청을 감시하기 위해 <code>Ruleset</code>을 사용하는데요. Falco의 <code>Ruleset</code>은 아래와 같이 정의됩니다.</p>
-<figure data-rehype-pretty-code-figure><pre style="--shiki-light:#e1e4e8;--shiki-dark:#e1e4e8;--shiki-light-bg:#24292e;--shiki-dark-bg:#24292e;" tabindex="0" data-language="yaml" data-theme="github-dark github-dark"><code data-language="yaml" data-theme="github-dark github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#E1E4E8;--shiki-dark:#E1E4E8;">- </span><span style="--shiki-light:#85E89D;--shiki-dark:#85E89D;">rule</span><span style="--shiki-light:#E1E4E8;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#9ECBFF;--shiki-dark:#9ECBFF;">Detect bash in a container</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"> # Rule 이름</span></span>
-<span data-line><span style="--shiki-light:#85E89D;--shiki-dark:#85E89D;">  desc</span><span style="--shiki-light:#E1E4E8;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#9ECBFF;--shiki-dark:#9ECBFF;">You shouldn't have a shell run in a container</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"> # Rule 설명</span></span>
-<span data-line><span style="--shiki-light:#85E89D;--shiki-dark:#85E89D;">  condition</span><span style="--shiki-light:#E1E4E8;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#9ECBFF;--shiki-dark:#9ECBFF;">container.id != host and proc.name = bash</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"> # 프로세스의 Call 중 Falco가 포착하는 조건</span></span>
-<span data-line><span style="--shiki-light:#85E89D;--shiki-dark:#85E89D;">  output</span><span style="--shiki-light:#E1E4E8;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#9ECBFF;--shiki-dark:#9ECBFF;">Bash ran inside a container (user=%user.name command=%proc.cmdline %container.info)</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"> # 해당 Rule에 대해 Falco가 표시하는 Output 양식</span></span>
-<span data-line><span style="--shiki-light:#85E89D;--shiki-dark:#85E89D;">  priority</span><span style="--shiki-light:#E1E4E8;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#9ECBFF;--shiki-dark:#9ECBFF;">INFO</span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"> # Falco가 표시하는 Output의 Type</span></span></code></pre></figure>
+<pre><code>- rule: Detect bash in a container # Rule 이름
+  desc: You shouldn't have a shell run in a container # Rule 설명
+  condition: container.id != host and proc.name = bash # 프로세스의 Call 중 Falco가 포착하는 조건
+  output: Bash ran inside a container (user=%user.name command=%proc.cmdline %container.info) # 해당 Rule에 대해 Falco가 표시하는 Output 양식
+  priority: INFO # Falco가 표시하는 Output의 Type
+</code></pre>
 <p><strong>Falco</strong>는 <strong>다양한 채널을 통해 Output을 전송</strong>합니다. 그 중 대표적인 채널은 아래와 같습니다.</p>
 <ul>
 <li>Standard Output</li>
