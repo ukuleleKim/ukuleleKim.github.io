@@ -6,6 +6,12 @@
       <description>Last 10 notes on Guide to DevOps</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Liveness, Readiness, Startup Probe 비교</title>
+    <link>https://guide-to-devops.github.io/blog/Liveness,-Readiness,-Startup-Probe-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EB%B9%84%EA%B5%90</link>
+    <guid>https://guide-to-devops.github.io/blog/Liveness,-Readiness,-Startup-Probe-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EB%B9%84%EA%B5%90</guid>
+    <description>🔎Kubernetes의 Container Probe란? Kubernetes에서 Pod를 배포하면 Pod에서 정의한 컨테이너가 실행되는데요. 컨테이너 내부에서 실행되어야 하는 프로세스가 정상 작동할 때 비로소 Pod를 통해 원하는 서비스를 이용할 수 있게 됩니다. Pod를 배포하고 운영하다보면 동작 중이던 컨테이너의 상태가 정상인지 주기적으로 확인이 필요할 때가 있습니다.</description>
+    <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
+  </item><item>
     <title>ollama와 crewAI로 로컬 환경에 블로그 포스팅 시스템 구축</title>
     <link>https://guide-to-devops.github.io/blog/ollama%EC%99%80-crewAI%EB%A1%9C-%EB%A1%9C%EC%BB%AC-%ED%99%98%EA%B2%BD%EC%97%90-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95</link>
     <guid>https://guide-to-devops.github.io/blog/ollama%EC%99%80-crewAI%EB%A1%9C-%EB%A1%9C%EC%BB%AC-%ED%99%98%EA%B2%BD%EC%97%90-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95</guid>
@@ -59,12 +65,6 @@
     <guid>https://guide-to-devops.github.io/blog/Service-Mesh-%EC%86%8C%EA%B0%9C</guid>
     <description> 클라우드 개발 환경에서 종종 Service Mesh란 키워드를 들으신 적이 있을 수 있습니다. Service Mesh라고 하면 네트워크와 관련된 것 같은 느낌이 있는데요. 이름에 담긴 느낌처럼, Service Mesh의 간략한 정의는 ‘애플리케이션의 서비스 간 모든 통신을 처리하는 소프트웨어 계층’이라고 할 수 있습니다.</description>
     <pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Falco 소개</title>
-    <link>https://guide-to-devops.github.io/blog/Falco-%EC%86%8C%EA%B0%9C</link>
-    <guid>https://guide-to-devops.github.io/blog/Falco-%EC%86%8C%EA%B0%9C</guid>
-    <description> Falco는 Linux 시스템을 대상으로 개발된 클라우드 네이티브 보안(Cloud-native Security) 툴입니다. Linux 커널 이벤트에 대한 규칙(Rule)을 지정하면 이에 따른 실시간 알림을 보내주는 역할을 수행합니다. Falco가 지원하는 이러한 행위를 컨테이너 런타임 보안 활동이라고 하는데요.</description>
-    <pubDate>Sat, 23 Mar 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
