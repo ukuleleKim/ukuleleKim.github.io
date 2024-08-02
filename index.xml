@@ -6,6 +6,12 @@
       <description>Last 10 notes on Guide to DevOps</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>kubectl 플러그인 매니저 krew 사용해보기</title>
+    <link>https://guide-to-devops.github.io/blog/kubectl-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EB%A7%A4%EB%8B%88%EC%A0%80-krew-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0</link>
+    <guid>https://guide-to-devops.github.io/blog/kubectl-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EB%A7%A4%EB%8B%88%EC%A0%80-krew-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0</guid>
+    <description>🔎krew란? Kubernetes를 운영 및 관리할 때 가장 많이 사용하는 툴이라고 하면 역시 kubectl일 텐데요. kubectl 덕분에 우린 커맨드 창에서 Kubernetes의 각 Object를 배포, 관리, 테스트할 수 있습니다. 이런 kubectl을 더욱 편리하고 효율적으로 사용할 수 있도록 도와주는 플러그인이 다양한 사람들에 의해 개발되고 있다는 사실, 알고 계셨나요? krew는 이렇게 개발되는 kubectl 플러그인을 저장하고 배포하는 플러그인 매니저입니다.</description>
+    <pubDate>Sun, 28 Jul 2024 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Liveness, Readiness, Startup Probe 비교</title>
     <link>https://guide-to-devops.github.io/blog/Liveness,-Readiness,-Startup-Probe-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EB%B9%84%EA%B5%90</link>
     <guid>https://guide-to-devops.github.io/blog/Liveness,-Readiness,-Startup-Probe-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EB%B9%84%EA%B5%90</guid>
@@ -58,12 +64,6 @@
     <link>https://guide-to-devops.github.io/blog/Istio-%EC%86%8C%EA%B0%9C</link>
     <guid>https://guide-to-devops.github.io/blog/Istio-%EC%86%8C%EA%B0%9C</guid>
     <description> Istio는 클라우드 환경에서 Service Mesh를 구현할 수 있는 오픈소스 솔루션입니다. Service Mesh가 무엇이고 왜 사용되는지 궁금하시다면, 여기를 확인해보세요. Istio를 사용하는 이유 Istio는 Service Mesh의 주요 기능들을 모두 지원하고 있는데요.</description>
-    <pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Service Mesh 소개</title>
-    <link>https://guide-to-devops.github.io/blog/Service-Mesh-%EC%86%8C%EA%B0%9C</link>
-    <guid>https://guide-to-devops.github.io/blog/Service-Mesh-%EC%86%8C%EA%B0%9C</guid>
-    <description> 클라우드 개발 환경에서 종종 Service Mesh란 키워드를 들으신 적이 있을 수 있습니다. Service Mesh라고 하면 네트워크와 관련된 것 같은 느낌이 있는데요. 이름에 담긴 느낌처럼, Service Mesh의 간략한 정의는 ‘애플리케이션의 서비스 간 모든 통신을 처리하는 소프트웨어 계층’이라고 할 수 있습니다.</description>
     <pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
