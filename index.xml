@@ -6,6 +6,12 @@
       <description>Last 10 notes on Guide to DevOps</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>플랫폼 엔지니어링이란?</title>
+    <link>https://guide-to-devops.github.io/blog/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%EC%9D%B4%EB%9E%80</link>
+    <guid>https://guide-to-devops.github.io/blog/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%EC%9D%B4%EB%9E%80</guid>
+    <description>⚙️플랫폼 엔지니어링이란? 우리가 DevOps에 대해 검색을 하다보면 함께 떠오르는 키워드가 하나 있습니다. 바로 플랫폼 엔지니어링인데요. 최근 저도 플랫폼 엔지니어링이란 키워드를 많이 접하게 되면서 플랫폼 엔지니어링이 구체적으로 무엇을 말하는지 궁금했고, 이번 기회에 정리를 해봤습니다.</description>
+    <pubDate>Sun, 04 Aug 2024 00:00:00 GMT</pubDate>
+  </item><item>
     <title>kubectl 플러그인 매니저 krew 사용해보기</title>
     <link>https://guide-to-devops.github.io/blog/kubectl-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EB%A7%A4%EB%8B%88%EC%A0%80-krew-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0</link>
     <guid>https://guide-to-devops.github.io/blog/kubectl-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EB%A7%A4%EB%8B%88%EC%A0%80-krew-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0</guid>
@@ -59,12 +65,6 @@
     <guid>https://guide-to-devops.github.io/blog/ollama%EC%99%80-Open-WebUI-%EB%A1%9C%EC%BB%AC-%EB%B0%B0%ED%8F%AC</guid>
     <description>ollama와 Open-WebUI LLM을 활용한 서비스가 다양하게 출시되는 요즘, 로컬에서 LLM을 사용할 수 있도록 도와주는 ollama이라는 툴에 관심이 생겼습니다. 오픈 LLM 모델의 GGUF 파일이 있다면 ollama를 이용해 로컬 환경에서 LLM과 상호작용이 가능한데요.</description>
     <pubDate>Mon, 20 May 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Istio 소개</title>
-    <link>https://guide-to-devops.github.io/blog/Istio-%EC%86%8C%EA%B0%9C</link>
-    <guid>https://guide-to-devops.github.io/blog/Istio-%EC%86%8C%EA%B0%9C</guid>
-    <description> Istio는 클라우드 환경에서 Service Mesh를 구현할 수 있는 오픈소스 솔루션입니다. Service Mesh가 무엇이고 왜 사용되는지 궁금하시다면, 여기를 확인해보세요. Istio를 사용하는 이유 Istio는 Service Mesh의 주요 기능들을 모두 지원하고 있는데요.</description>
-    <pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
