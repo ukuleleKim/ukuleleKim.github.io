@@ -79,7 +79,7 @@
 </ul>
 <p>위 예제에선 컨테이너에 readinessProbe 하나만 정의되었지만, <span class="text-highlight">필요에 따라 컨테이너에 대해 Probe를 종류별로 모두 정의</span>할 수도 있습니다.</p>
 <h3 id="liveness-probe">Liveness Probe<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#liveness-probe" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
-<p><strong>Liveness Probe는 동작 중인 컨테이너의 상태를 주기적으 진단</strong>할 때 사용됩니다.</p>
+<p><strong>Liveness Probe는 동작 중인 컨테이너의 상태를 주기적으로 진단</strong>할 때 사용됩니다.</p>
 <p>Kubernetes에 배포된 컨테이너의 프로세스에 이슈가 생기거나 프로세스의 상태가 Unhealthy인 경우, kubelet이 이를 감지하여 자동으로 Pod의 <code>restartPolicy</code>(재시작 정책)에 따라 조치를 취하기 때문에 Liveness Probe가 반드시 필요한 것은 아닙니다.</p>
 <p>하지만 Probe의 <strong>컨테이너 상태 진단 결과에 따라 종료 또는 재시작이 필요한 경우라면 Liveness Probe를 사용</strong>할 수 있습니다.</p>
 <p>위 예제 코드에서 봤던 것처럼, 모든 Probe는 <code>spec.containers</code> 레벨에서 정의할 수 있는데요. 위 코드에 exec를 수행하는 Liveness Probe를 추가로 정의한다면 아래와 같겠습니다.</p>
