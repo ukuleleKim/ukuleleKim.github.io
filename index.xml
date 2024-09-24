@@ -6,6 +6,12 @@
       <description>Last 10 notes on Guide to DevOps</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Elasticsearch 및 Kibana의 오픈소스 라이선스 적용 선언</title>
+    <link>https://guide-to-devops.github.io/blog/Elasticsearch-%EB%B0%8F-Kibana%EC%97%90-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%EC%A0%81%EC%9A%A9-%EC%84%A0%EC%96%B8</link>
+    <guid>https://guide-to-devops.github.io/blog/Elasticsearch-%EB%B0%8F-Kibana%EC%97%90-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%EC%A0%81%EC%9A%A9-%EC%84%A0%EC%96%B8</guid>
+    <description>✨Elastic의 오픈소스 라이선스 적용 선언 2024년 8월 말, Elastic은 Elasticsearch 및 Kibana에 오픈소스 라이선스를 다시 적용하겠다고 발표했습니다. (원문 링크) 현재 Elasticsearch 및 Kibana 최신 버전(v8.15.1) 이후에 릴리즈되는 버전부터 AGPL v3.0(GNU Affero General Public License v3.0) 라이선스가 적용될 수 있도록 수정할 예정이라는 게 이번 발표의 요지인데요.</description>
+    <pubDate>Sun, 22 Sep 2024 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Kubernetes 환경에서의 안정성 테스트가 필요하다면? - 카오스 엔지니어링</title>
     <link>https://guide-to-devops.github.io/blog/k8s-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%95%88%EC%A0%95%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%B9%B4%EC%98%A4%EC%8A%A4-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81</link>
     <guid>https://guide-to-devops.github.io/blog/k8s-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%95%88%EC%A0%95%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%B9%B4%EC%98%A4%EC%8A%A4-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81</guid>
@@ -59,12 +65,6 @@
     <guid>https://guide-to-devops.github.io/blog/ollama%EC%99%80-crewAI%EB%A1%9C-%EB%A1%9C%EC%BB%AC-%ED%99%98%EA%B2%BD%EC%97%90-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95</guid>
     <description>🦙🧑‍🤝‍🧑Ollama와 CrewAI Ollama는 로컬 환경에서 LLM을 실행하는 오픈소스 툴입니다. 지난 글에서 Docker로 Ollama와 Open-WebUI라는 툴을 실행해서 웹 브라우저로 로컬 LLM에게 질문을 해보는 튜토리얼을 진행한 적이 있었죠. (관련 블로그 글) 이번엔 Ollama와 CrewAI를 활용해서 로컬 LLM 기반으로 블로그 글을 작성해주는 시스템을 구축해보려합니다.</description>
     <pubDate>Sun, 23 Jun 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>보안에 강한 Dockerfile 작성 팁 5가지</title>
-    <link>https://guide-to-devops.github.io/blog/%EB%B3%B4%EC%95%88%EC%97%90-%EA%B0%95%ED%95%9C-Dockerfile-%EC%9E%91%EC%84%B1-%ED%8C%81-5%EA%B0%80%EC%A7%80</link>
-    <guid>https://guide-to-devops.github.io/blog/%EB%B3%B4%EC%95%88%EC%97%90-%EA%B0%95%ED%95%9C-Dockerfile-%EC%9E%91%EC%84%B1-%ED%8C%81-5%EA%B0%80%EC%A7%80</guid>
-    <description> 들어가기 Dockerfile은 Docker 컨테이너 이미지를 빌드할 때 사용되는 각종 설정과 명령어를 선언한 파일입니다. 우리가 개발 환경을 구축하거나 서비스를 배포할 때 누군가 미리 만들어놓은 Docker 이미지를 사용하기도 하지만, 직접 Dockerfile을 작성해서 Docker 이미지로 빌드하는 경우도 많은데요.</description>
-    <pubDate>Mon, 10 Jun 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
