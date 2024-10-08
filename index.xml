@@ -6,6 +6,12 @@
       <description>Last 10 notes on Guide to DevOps</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>CI/CD 파이프라인을 더 안전하게 만드는 방법</title>
+    <link>https://guide-to-devops.github.io/blog/%EB%8D%94-%EC%95%88%EC%A0%84%ED%95%9C-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0---SLSA-%ED%91%9C%EC%A4%80</link>
+    <guid>https://guide-to-devops.github.io/blog/%EB%8D%94-%EC%95%88%EC%A0%84%ED%95%9C-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0---SLSA-%ED%91%9C%EC%A4%80</guid>
+    <description>🛡️SLSA의 보안 수준 4단계 오늘날 수많은 기업과 조직에서 효율적인 개발 프로세스를 위해 CI/CD를 도입하는 경우가 많습니다. CI/CD 파이프라인으로 개발 이후의 코드 통합과 배포를 자동화하면 애자일한 개발이 가능하지만, 이런 파이프라인 내부에 보안 취약점이 존재한다면 심각한 보안 사고로 이어질 수도 있겠죠.</description>
+    <pubDate>Sun, 06 Oct 2024 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Kubernetes 클러스터를 쉽고 가볍게 구축할 수 있는 경량화 버전: minikube, k3s, k0s</title>
     <link>https://guide-to-devops.github.io/blog/Kubernetes%EC%9D%98-%EA%B2%BD%EB%9F%89%ED%99%94-%EB%B2%84%EC%A0%84-%EB%B9%84%EA%B5%90---minikube-vs-k3s-vs-k0s</link>
     <guid>https://guide-to-devops.github.io/blog/Kubernetes%EC%9D%98-%EA%B2%BD%EB%9F%89%ED%99%94-%EB%B2%84%EC%A0%84-%EB%B9%84%EA%B5%90---minikube-vs-k3s-vs-k0s</guid>
@@ -59,12 +65,6 @@
     <guid>https://guide-to-devops.github.io/blog/kubectl-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EB%A7%A4%EB%8B%88%EC%A0%80-krew-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0</guid>
     <description>🔎krew란? Kubernetes를 운영 및 관리할 때 가장 많이 사용하는 툴이라고 하면 역시 kubectl일 텐데요. kubectl 덕분에 우린 커맨드 창에서 Kubernetes의 각 Object를 배포, 관리, 테스트할 수 있습니다. 이런 kubectl을 더욱 편리하고 효율적으로 사용할 수 있도록 도와주는 플러그인이 다양한 사람들에 의해 개발되고 있다는 사실, 알고 계셨나요? krew는 이렇게 개발되는 kubectl 플러그인을 저장하고 배포하는 플러그인 매니저입니다.</description>
     <pubDate>Sun, 28 Jul 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Liveness, Readiness, Startup Probe 비교</title>
-    <link>https://guide-to-devops.github.io/blog/Liveness,-Readiness,-Startup-Probe-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EB%B9%84%EA%B5%90</link>
-    <guid>https://guide-to-devops.github.io/blog/Liveness,-Readiness,-Startup-Probe-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EB%B9%84%EA%B5%90</guid>
-    <description>🔎Kubernetes의 Container Probe란? Kubernetes에서 Pod를 배포하면 Pod에서 정의한 컨테이너가 실행되는데요. 컨테이너 내부에서 실행되어야 하는 프로세스가 정상 작동할 때 비로소 Pod를 통해 원하는 서비스를 이용할 수 있게 됩니다. Pod를 배포하고 운영하다보면 동작 중이던 컨테이너의 상태가 정상인지 주기적으로 확인이 필요할 때가 있습니다.</description>
-    <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
