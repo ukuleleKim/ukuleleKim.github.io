@@ -6,6 +6,12 @@
       <description>Last 10 notes on Guide to DevOps</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>[2024 우아콘 후기] AI 데이터 분석가 &#039;물어보새&#039; 소개 및 실시간 추천 검색어 모델링 사례 공유</title>
+    <link>https://guide-to-devops.github.io/blog/2024-%EC%9A%B0%EC%95%84%EC%BD%98-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0---1</link>
+    <guid>https://guide-to-devops.github.io/blog/2024-%EC%9A%B0%EC%95%84%EC%BD%98-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0---1</guid>
+    <description>10월 30일, 우아한형제들에서 2024 우아콘을 개최했습니다. 저도 이 행사에 참여하게 되어서, 행사 참여 후기와 제가 참석한 세션 내용을 함께 공유드리려고 합니다. 이번 행사는 참여형 트랙을 포함한 총 8가지 트랙으로 구성되고, 각 트랙은 시간별로 6가지 세션으로 나눠지기 때문에, 정말 다양한 주제로 발표가 이뤄졌는데요.</description>
+    <pubDate>Wed, 30 Oct 2024 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Kubernetes 컨테이너 디자인 패턴 소개</title>
     <link>https://guide-to-devops.github.io/blog/Kubernetes-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4</link>
     <guid>https://guide-to-devops.github.io/blog/Kubernetes-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4</guid>
@@ -59,12 +65,6 @@
     <guid>https://guide-to-devops.github.io/blog/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B0%9C%EB%B0%9C%EC%97%90-%EC%A0%81%EC%9A%A9-%EA%B0%80%EB%8A%A5%ED%95%9C-DevOps</guid>
     <description>⛓️블록체인 개발에 DevOps를 도입한다면 블록체인은 최근 큰 관심을 이끈 기술입니다. 분산 거래 기록 시스템이라고도 불리는데요. 지금도 블록체인은 다양한 곳에서 활용되고 있고, 수많은 블록체인 프로젝트도 개발 및 유지보수되고 있습니다. 블록체인은 네트워크를 구성하고 있는 노드들이 네트워크에서 발생하는 데이터를 함께 검증해서 무결성을 증명해내는 기술이기 때문에, 시간이 흘러 블록체인 네트워크가 성숙해질수록 효율적인 네트워크 관리와 보안 사고 예방이 매우 중요해집니다.</description>
     <pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Infrastructure as Code (IaC) 알아보기</title>
-    <link>https://guide-to-devops.github.io/blog/Infrastructure-as-Code-(IaC)-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0</link>
-    <guid>https://guide-to-devops.github.io/blog/Infrastructure-as-Code-(IaC)-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0</guid>
-    <description>⚙️Infrastructure as Code란 우리가 애플리케이션을 배포하고 서비스를 운영하려면 서버, 스토리지, 네트워크 등과 같은 인프라 설정이 필요한데요. 인프라 구축을 애플리케이션 배포 때마다 매번 직접 수동으로 한다면 시간도 오래 걸리고 지루한 작업이 될 것입니다.</description>
-    <pubDate>Sun, 18 Aug 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
