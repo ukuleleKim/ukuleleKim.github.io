@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>[2024 우아콘 후기] 프롬프트 엔지니어링, 클라우드 관리 및 컴플라이언스 관련 세션</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans KR&amp;family=Noto Sans KR:wght@400;700&amp;family=Noto Sans KR:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="google-site-verification" content="_y2e8NijEw1pWVSTaAheBdoMwryFwNuDVM99SI0K7aU"/><meta property="og:title" content="[2024 우아콘 후기] 프롬프트 엔지니어링, 클라우드 관리 및 컴플라이언스 관련 세션"/><meta property="og:description" content="지난 2024 우아콘 참여 후기 글에 이어서, 제가 참석한 컨퍼런스 세션 내용을 이번 글에서 마저 공유드리겠습니다. 💻Fine-tuning 없이, 프롬프트 엔지니어링으로 메뉴 이미지 검수하기 해당 세션은 메뉴 이미지 검수 작업을 ChatGPT 프롬프트 엔지니어링으로 수행하기 위해 어떤 시행착오를 거쳤는지 공유해주신 자리였습니다."/><meta property="og:image" content="https://guide-to-devops.github.io/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="지난 2024 우아콘 참여 후기 글에 이어서, 제가 참석한 컨퍼런스 세션 내용을 이번 글에서 마저 공유드리겠습니다. 💻Fine-tuning 없이, 프롬프트 엔지니어링으로 메뉴 이미지 검수하기 해당 세션은 메뉴 이미지 검수 작업을 ChatGPT 프롬프트 엔지니어링으로 수행하기 위해 어떤 시행착오를 거쳤는지 공유해주신 자리였습니다."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script></head><body data-slug="blog/2024-우아콘-참여-후기---2"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">Guide to DevOps</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="search-layout" data-preview="true"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabindex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabindex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabindex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="recent-notes desktop-only"><h3>Recent Notes</h3><ul class="recent-ul"><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../blog/2024-우아콘-참여-후기---2" class="internal">[2024 우아콘 후기] 프롬프트 엔지니어링, 클라우드 관리 및 컴플라이언스 관련 세션</a></h3></div><p class="meta">Oct 31, 2024</p></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../blog/2024-우아콘-참여-후기---1" class="internal">[2024 우아콘 후기] AI 데이터 분석가 '물어보새' 소개 및 실시간 추천 검색어 모델링 사례 공유</a></h3></div><p class="meta">Oct 30, 2024</p></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../blog/Kubernetes-컨테이너-디자인-패턴" class="internal">Kubernetes 컨테이너 디자인 패턴 소개</a></h3></div><p class="meta">Oct 27, 2024</p></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../blog/CNCF에서-졸업한-KubeEdge-프로젝트-소개" class="internal">최근 CNCF에서 졸업한 KubeEdge 프로젝트란?</a></h3></div><p class="meta">Oct 20, 2024</p></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../blog/KCNA와-KCSA-자격증-취득-후기" class="internal">KCNA와 KCSA 자격증 취득 후기 및 핵심 키워드</a></h3></div><p class="meta">Oct 13, 2024</p></div></li></ul><p><a href="../blog">See 35 more →</a></p></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../blog/">blog</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>[2024 우아콘 후기] 프롬프트 엔지니어링, 클라우드 관리 및 컴플라이언스 관련 세션</a></div></nav><h1 class="article-title">[2024 우아콘 후기] 프롬프트 엔지니어링, 클라우드 관리 및 컴플라이언스 관련 세션</h1><p show-comma="true" class="content-meta"><span>Oct 31, 2024</span><span>12 min read</span></p><ul class="tags"><li><a href="../tags/Conference" class="internal tag-link">Conference</a></li></ul></div></div><article class="popover-hint"><p>지난 2024 우아콘 참여 후기 글에 이어서, 제가 참석한 컨퍼런스 세션 내용을 이번 글에서 마저 공유드리겠습니다.</p>
+<h2 id="fine-tuning-없이-프롬프트-엔지니어링으로-메뉴-이미지-검수하기">💻Fine-tuning 없이, 프롬프트 엔지니어링으로 메뉴 이미지 검수하기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#fine-tuning-없이-프롬프트-엔지니어링으로-메뉴-이미지-검수하기" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="https://i.imgur.com/HR803xy.jpeg" alt/></p>
+<p>해당 세션은 <strong>메뉴 이미지 검수 작업을 ChatGPT 프롬프트 엔지니어링으로 수행</strong>하기 위해 어떤 시행착오를 거쳤는지 공유해주신 자리였습니다.</p>
+<p>우아한형제들 자체 리서치에서 ‘배달의민족’에서 메뉴 선택에 큰 영향을 주는 요소로 메뉴 이미지가 꼽혔지만, 이런 <strong>메뉴 이미지를 업로드할 때 반려되는 정책이 너무 다양</strong>하여 <strong>모든 이미지를 사람이 직접 검수하기 위해서는 많은 시간이 필요</strong>했다고 합니다. 그래서 <strong>이 문제를 해결하기 위해 ChatGPT의 프롬프트를 활용</strong>했다고 하는데요.</p>
+<p>ChatGPT를 메뉴 이미지 검수 작업에 활용하기 위해, 먼저 아래와 같은  프롬프트 엔지니어링 과정을 거쳤다고 합니다.</p>
+<ul>
+<li>v1: 프롬프트 엔지니어링 없이 테스트</li>
+<li>v2: 프롬프트 엔지니어링 도입 시작</li>
+<li>v3: 프롬프트가 참고할 메뉴 이미지 검수 정책 구체화</li>
+<li>v4: 메뉴 이미지 검수 정책에 맹점이 없도록 세분화</li>
+</ul>
+<p>발표자분은 이런 과정을 거치면서 프롬프트 엔지니어링이란 단어 하나까지 신경써야 하는 세심하고 섬세한 작업이며, 문제 상황에 맞게 Task를 최적화해가고, ChatGPT와 상호작용하며 생각을 이해시켜가는 과정임을 느꼈다고 하셨습니다.</p>
+<p>또한 위 과정에서 멈추지 않고, 아래와 같이 프롬프트 엔지니어링을 이어나갔다고 하는데요.</p>
+<ul>
+<li>v6: 프롬프트 응답 출력 구조화
+<ul>
+<li>응답 결과를 Json 포맷으로 요구</li>
+</ul>
+</li>
+<li>v7: 일관된 답변을 위한 고도화
+<ul>
+<li>CoT(Chain of Thought): ChatGPT 스스로 제출된 이미지를 설명하도록 한 다음 결과 반환</li>
+<li>Ensemble 기법: 여러 모델의 응답에서 다수결 기반으로 결정</li>
+<li>제한된 예산 내에서 효과적인 방법을 구현했지만, 좀 더 비용 절약이 필요</li>
+</ul>
+</li>
+<li>v8: 허리띠 졸라매기
+<ul>
+<li>한국어 쿼리를 영문으로 번역 후 제출하여 토큰 절약 <span>→</span> 응답 시간 감소 효과도 얻음</li>
+<li>ChatGPT 호출 수를 줄이기 위해, ChatGPT를 사용하지 않아도 되는 이미지는 사내 보유 중인 모델을 바로 활용하는 방식을 사용</li>
+<li>다만 한국어 쿼리와 영문 쿼리의 토큰 사용량 차이는 GPT-4o 출시 이후로 많이 줄었다고 합니다.</li>
+</ul>
+</li>
+</ul>
+<p>결국 이렇게 수많은 과정을 거친 결과,</p>
+<ul>
+<li>프롬프트의 기반이 되는 Instruction에서는 <strong>입력데이터에 대한 암시</strong>와 <strong>이중부정 표현 삭제</strong>, <strong>정확한 행동 지침을 사용</strong>하게 되었고,</li>
+<li>프롬프트의 Parameter에서는 <strong>해당 서비스에 맞는 값을 찾아 조정</strong>하면서 <strong>JSON 포맷으로 응답 결과 출력 안정성을 보장</strong>했으며,</li>
+<li>프롬프트에서는 <strong>요구사항을 분리해서 입력</strong>하고, <strong>결과를 한 문장으로 출력하라는 지시를 사용하여 응답을 더욱 빠르게 출력</strong>하며, <strong>구체적이고 세분화된 정책항목과 함께 프롬프트의 응답 예시를 제공하여 더욱 정확한 응답</strong>을 이끌어냈다고 합니다.</li>
+</ul>
+<p>이렇게 여러 시행착오를 거쳐 서비스에 적합하도록 프롬프트를 최적화했지만, 여전히 프롬프트의 응답에서 과도한 확대가 발견되거나, 저작권 문제도 존재한다고 하는데요.</p>
+<p>이를 해결하기 위해 중간에 분기점을 두어, 특정 결과에 대해서는 사람이 검수하는 단계를 추가했다고 합니다.</p>
+<p>본 세션의 마지막 순서로, 우아한형제들이 AI를 활용하는 방식을 소개하는 시간이었는데요.</p>
+<p>우아한형제들에서는 먼저 생성형 AI를 안전하게 사용하기 위한 조건을 아래와 같이 정의했다고 합니다.</p>
+<ul>
+<li>정보가 정확한가</li>
+<li>공격적이거나 혐오를 담고있진 않은가</li>
+<li>주어진 예산 내에서 소화 가능한가</li>
+<li>서비스 요구사항에 수용 가능한 속도를 얻을 수 있는가</li>
+</ul>
+<p>본 세션 주제와 같은 생성형 AI를 활용하는 과제를 수행하면서, 위 고려 사항 중 ‘정보가 정확한가’에 대해서는 아쉬움이 남았다고 하셨습니다.</p>
+<p>그리고 우아한형제들에서는 생성형 AI에 대해 여전히 아래와 같은 고민이 있다고 하는데요.</p>
+<ul>
+<li>사람이 하던 일을 생성형 AI가 대신해서 생산성을 개선할 수 있는가?</li>
+<li>Fine tuning하지 않은 생성형 AI는 어디까지 활용 가능할까?</li>
+</ul>
+<p>우아한형제들에서는 프롬프트 엔지니어링만으로 문제를 해결할 수 있을지 연구 중이며, 프롬프트 엔지니어링만으로 어렵다면 LLM 또는 LLM과 머신 러닝을 하이브리드로 적용하거나, 기존 머신러닝의 모델링도 문제 해결에 사용 중이라고 합니다. (<a href="../blog/2024-우아콘-참여-후기---1" class="internal alias" data-slug="blog/2024-우아콘-참여-후기---1">이전 글</a>에서 공유드렸던 ‘배달의민족’의 추천 검색어 기능도 모델링이 적용됐었죠🙂)</p>
+<p>프롬프트 엔지니어링은 저도 계속 관심을 가지고 있던 분야이다보니, 이번 세션은 프롬프트 엔지니어링 과정에서 마주친 문제와 개선 방식, 그 결과를 발표해주셔서 재밌었던 시간이었습니다.</p>
+<h2 id="️0원으로-클라우드-비용-장애-보안까지-한-번에-관리하는-비밀-공개">☁️0원으로 클라우드 비용, 장애, 보안까지 한 번에 관리하는 비밀 공개<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#️0원으로-클라우드-비용-장애-보안까지-한-번에-관리하는-비밀-공개" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="https://i.imgur.com/fwKBkyi.jpeg" alt/></p>
+<p>본 세션에서는 <strong>클라우드 리소스 정책 관리 툴 Cloud Custodian을 활용하여 사내 클라우드 리소스 정책을 체계적으로 표준화</strong>한 사례를 공유해주셨습니다.</p>
+<p>우아한형제들에서는 10년간 AWS 어카운트 수가 50개 이상, EC2 인스턴스의 수가 10000대 이상으로 빠르게 확대되다보니 클라우드 활용 정책을 체계적으로 관리할 필요성이 생겼다고 하는데요.</p>
+<p>기존에는 AWS Service Quotas로 클라우드 리소스 할당량을 관리했지만, 리소스에 대한 정책이 100여 개 이상으로 계속 추가되는 상황이었기 때문에 <strong>정책을 좀 더 체계적으로 관리하기 위해 별도의 툴을 도입</strong>하기로 했다고 합니다. 그 후보군은 아래와 같이 3가지였습니다.</p>
+<ul>
+<li>Cloud Custodian: 비용 저렴 / 생산성 낮음 / 확장성 높음</li>
+<li>AWS Config: 비용 높음 / 생산성 중간 / 확장성 중간</li>
+<li>상용 솔루션: 비용은 솔루션마다 다름 / 생산성 높음 / 확장성 낮음</li>
+</ul>
+<p>그리고 이 중 오픈소스인 <strong>Cloud Custodian</strong>을 도입하게 되었는데, <strong>Cloud Custodian은 CNCF의 인큐베이팅 프로젝트여서 이미 검증된 정책 관리 툴이라고 판단</strong>했다고 합니다. CNCF의 프로젝트에 대해선 <a href="../blog/CNCF에서-졸업한-KubeEdge-프로젝트-소개" class="internal alias" data-slug="blog/CNCF에서-졸업한-KubeEdge-프로젝트-소개">지난 KubeEdge 소개 글</a>에서도 잠깐 언급한 적이 있었습니다.</p>
+<p>Cloud Custodian로 대부분의 요구사항을 충족할 수 있었지만, Kubernetes 리소스에 대해서는 확인하기가 어렵다는 제약도 있었다는데요. 이를 보완하기 위해 Kubernetes 전용 정책 엔진인 <strong>Kyverno</strong>를 사용해서 Kubernetes Pod와 Image 정보를 확인했다고 합니다.</p>
+<p>클라우드를 운영하다보면 결국 <strong>리소스 사용에 대한 정책이 필요</strong>하게 될 텐데, 이런 <strong>정책을 어떻게 관리해야 하는가</strong>에 대해 고민해볼 수 있는 시간이었습니다.</p>
+<p>해당 세션에서 Cloud Custodian의 활용 예시에 대해서도 자세히 공유해주셔서 저도 많이 배웠는데요. 이 글에서 Cloud Custodian의 기술적인 부분까지 상세하게 넣진 않았지만, 클라우드 리소스 정책 관리에 대해서는 추후 좀 더 자세히 정리한 다음 다뤄보려 합니다.</p>
+<h2 id="이번-시리즈를-마치며">이번 시리즈를 마치며…<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#이번-시리즈를-마치며" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>지난 글에 이어서 2024 우아콘 참여 후기 및 세션 내용을 공유해드렸는데요. 이번 특집을 통해 우아한형제들이 문제를 어떻게 정의하고, 어떤 고민을 거쳐 해결했는지를 중점적으로 여러분께 공유드리고 싶었습니다.</p>
+<p>그럼 다음 글에서 또 다른 주제로 만나겠습니다. 감사합니다😊</p></article></div><div class="right sidebar"><div class="toc desktop-only"><button type="button" id="toc" class><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#fine-tuning-없이-프롬프트-엔지니어링으로-메뉴-이미지-검수하기" data-for="fine-tuning-없이-프롬프트-엔지니어링으로-메뉴-이미지-검수하기">💻Fine-tuning 없이, 프롬프트 엔지니어링으로 메뉴 이미지 검수하기</a></li><li class="depth-0"><a href="#️0원으로-클라우드-비용-장애-보안까지-한-번에-관리하는-비밀-공개" data-for="️0원으로-클라우드-비용-장애-보안까지-한-번에-관리하는-비밀-공개">☁️0원으로 클라우드 비용, 장애, 보안까지 한 번에 관리하는 비밀 공개</a></li><li class="depth-0"><a href="#이번-시리즈를-마치며" data-for="이번-시리즈를-마치며">이번 시리즈를 마치며…</a></li></ul></div></div><div class="recent-notes mobile-only"><h3>Recent Notes</h3><ul class="recent-ul"><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../blog/2024-우아콘-참여-후기---2" class="internal">[2024 우아콘 후기] 프롬프트 엔지니어링, 클라우드 관리 및 컴플라이언스 관련 세션</a></h3></div><p class="meta">Oct 31, 2024</p></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../blog/2024-우아콘-참여-후기---1" class="internal">[2024 우아콘 후기] AI 데이터 분석가 '물어보새' 소개 및 실시간 추천 검색어 모델링 사례 공유</a></h3></div><p class="meta">Oct 30, 2024</p></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../blog/Kubernetes-컨테이너-디자인-패턴" class="internal">Kubernetes 컨테이너 디자인 패턴 소개</a></h3></div><p class="meta">Oct 27, 2024</p></div></li></ul><p><a href="../blog">See 37 more →</a></p></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><div><h3><p>DevOps 및 클라우드 관련 글을 정기적으로 받아보고 싶다면</p><a href="https://maily.so/newslettertodevops">🔭DevOps 여행을 위한 소식지 구독하기📧</a></h3></div><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.2.3</a> © 2024</p></footer></div></body><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
+</script><script type="module">
+          let mermaidImport = undefined
+          document.addEventListener('nav', async () => {
+            if (document.querySelector("code.mermaid")) {
+              mermaidImport ||= await import('https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs')
+              const mermaid = mermaidImport.default
+              const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+              mermaid.initialize({
+                startOnLoad: false,
+                securityLevel: 'loose',
+                theme: darkMode ? 'dark' : 'default'
+              })
+
+              await mermaid.run({
+                querySelector: '.mermaid'
+              })
+            }
+          });
+          </script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>

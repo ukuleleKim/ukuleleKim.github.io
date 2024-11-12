@@ -6,6 +6,12 @@
       <description>Last 10 notes on Guide to DevOps</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>[2024 우아콘 후기] 프롬프트 엔지니어링, 클라우드 관리 및 컴플라이언스 관련 세션</title>
+    <link>https://guide-to-devops.github.io/blog/2024-%EC%9A%B0%EC%95%84%EC%BD%98-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0---2</link>
+    <guid>https://guide-to-devops.github.io/blog/2024-%EC%9A%B0%EC%95%84%EC%BD%98-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0---2</guid>
+    <description>지난 2024 우아콘 참여 후기 글에 이어서, 제가 참석한 컨퍼런스 세션 내용을 이번 글에서 마저 공유드리겠습니다. 💻Fine-tuning 없이, 프롬프트 엔지니어링으로 메뉴 이미지 검수하기 해당 세션은 메뉴 이미지 검수 작업을 ChatGPT 프롬프트 엔지니어링으로 수행하기 위해 어떤 시행착오를 거쳤는지 공유해주신 자리였습니다.</description>
+    <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+  </item><item>
     <title>[2024 우아콘 후기] AI 데이터 분석가 &#039;물어보새&#039; 소개 및 실시간 추천 검색어 모델링 사례 공유</title>
     <link>https://guide-to-devops.github.io/blog/2024-%EC%9A%B0%EC%95%84%EC%BD%98-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0---1</link>
     <guid>https://guide-to-devops.github.io/blog/2024-%EC%9A%B0%EC%95%84%EC%BD%98-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0---1</guid>
@@ -59,12 +65,6 @@
     <guid>https://guide-to-devops.github.io/blog/Kubernetes-v1.31-%EB%A6%B4%EB%A6%AC%EC%A6%88!---%EC%A3%BC%EC%9A%94-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%86%8C%EA%B0%9C</guid>
     <description>지난 8월에 Kubernetes v1.31이 릴리즈되었습니다. 프로젝트 네임은 Elli인데요. Kubernetes 10주년 이후 처음 릴리즈되는 이번 버전에서도 다양한 기능이 안정화되고 새로운 기능도 추가되었습니다. 그중 아래 주요 업데이트에 대해 소개해드리겠습니다. AppArmor 지원 기능 Stable 단계로 상향 PersistentVolume의 lastTransitionTime Stable 단계로 상향 이미지 볼륨 지원 기능 추가 (Alpha 단계) 🛡️AppArmor 지원 기능 Stable 단계로 상향 AppArmor는 리눅스 서버를 보호하기 위해 특정 애플리케이션이 네트워크나 파일 등에 접근하는 것을 제한하는 보안 모듈입니다.</description>
     <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>블록체인 개발에 적용 가능한 DevOps</title>
-    <link>https://guide-to-devops.github.io/blog/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B0%9C%EB%B0%9C%EC%97%90-%EC%A0%81%EC%9A%A9-%EA%B0%80%EB%8A%A5%ED%95%9C-DevOps</link>
-    <guid>https://guide-to-devops.github.io/blog/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B0%9C%EB%B0%9C%EC%97%90-%EC%A0%81%EC%9A%A9-%EA%B0%80%EB%8A%A5%ED%95%9C-DevOps</guid>
-    <description>⛓️블록체인 개발에 DevOps를 도입한다면 블록체인은 최근 큰 관심을 이끈 기술입니다. 분산 거래 기록 시스템이라고도 불리는데요. 지금도 블록체인은 다양한 곳에서 활용되고 있고, 수많은 블록체인 프로젝트도 개발 및 유지보수되고 있습니다. 블록체인은 네트워크를 구성하고 있는 노드들이 네트워크에서 발생하는 데이터를 함께 검증해서 무결성을 증명해내는 기술이기 때문에, 시간이 흘러 블록체인 네트워크가 성숙해질수록 효율적인 네트워크 관리와 보안 사고 예방이 매우 중요해집니다.</description>
-    <pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
