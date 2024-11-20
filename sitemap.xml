@@ -1,4 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://guide-to-devops.github.io/blog/2024-GitLab-%EC%9C%A0%EC%A0%80-%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4-%ED%9B%84%EA%B8%B0---%EB%8B%A4%EC%96%91%ED%95%9C-GitLab-%EC%A0%81%EC%9A%A9-%EC%82%AC%EB%A1%80</loc>
+    <lastmod>2024-06-30T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://guide-to-devops.github.io/blog/2024-%EC%9A%B0%EC%95%84%EC%BD%98-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0---1</loc>
     <lastmod>2024-10-30T00:00:00.000Z</lastmod>
   </url><url>
@@ -22,6 +25,9 @@
   </url><url>
     <loc>https://guide-to-devops.github.io/blog/Clair-%EC%86%8C%EA%B0%9C</loc>
     <lastmod>2024-03-10T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://guide-to-devops.github.io/blog/Docker-Container-%EC%95%88%EC%97%90%EC%84%9C-Docker-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0</loc>
+    <lastmod>2024-06-10T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://guide-to-devops.github.io/blog/Dockerfile%EC%9D%98-ADD-vs-COPY</loc>
     <lastmod>2023-11-10T00:00:00.000Z</lastmod>
@@ -77,6 +83,9 @@
     <loc>https://guide-to-devops.github.io/blog/Liveness,-Readiness,-Startup-Probe-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EB%B9%84%EA%B5%90</loc>
     <lastmod>2024-07-09T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://guide-to-devops.github.io/blog/OpenSSH%EC%9D%98-%EC%B5%9C%EA%B7%BC-%EB%B3%B4%EC%95%88-%EC%B7%A8%EC%95%BD%EC%A0%90-%EC%86%8C%EA%B0%9C-(CVE-2024-6387)</loc>
+    <lastmod>2024-07-07T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://guide-to-devops.github.io/blog/Service-Mesh-%EC%86%8C%EA%B0%9C</loc>
     <lastmod>2024-03-31T00:00:00.000Z</lastmod>
   </url><url>
@@ -115,6 +124,9 @@
   </url><url>
     <loc>https://guide-to-devops.github.io/blog/%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EC%97%94%EC%A7%84-%EA%B4%80%EB%A0%A8-%EC%B7%A8%EC%95%BD%EC%A0%90-(CVE-2024-21626)</loc>
     <lastmod>2024-02-18T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://guide-to-devops.github.io/blog/%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B3%B4%EC%95%88%EC%9D%84-%EC%9C%84%ED%95%9C-Dockerfile-%EC%9E%91%EC%84%B1-%ED%8C%81-5%EA%B0%80%EC%A7%80</loc>
+    <lastmod>2024-06-16T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://guide-to-devops.github.io/blog/%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%EC%9D%B4%EB%9E%80</loc>
     <lastmod>2024-08-04T00:00:00.000Z</lastmod>
