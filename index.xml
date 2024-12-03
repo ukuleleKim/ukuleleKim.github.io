@@ -18,6 +18,12 @@
     <description>안녕하세요. 이번 글에서는 최근 CNCF에서 졸업한 cert-manager라는 Kubernetes 내부 TLS 인증서 관리 프로젝트에 대해 살펴보면서, TLS 인증서에 대해서도 알아보겠습니다. 📜TLS 인증서가 무엇인가요? Kubernetes 내부에서 배포된 여러 서비스가 서로 통신할 때, 암호화되지 않은 HTTP보다 보안 측면에서 우수한 HTTPS를 사용하는 경우가 많은데요.</description>
     <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
   </item><item>
+    <title>헷갈리기 쉬운 AWS 클라우드의 모니터링 및 로깅 서비스 정리</title>
+    <link>https://guide-to-devops.github.io/blog/%ED%97%B7%EA%B0%88%EB%A6%AC%EA%B8%B0-%EC%89%AC%EC%9A%B4-AWS-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%9D%98-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-%EB%B0%8F-%EB%A1%9C%EA%B9%85-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%95%EB%A6%AC</link>
+    <guid>https://guide-to-devops.github.io/blog/%ED%97%B7%EA%B0%88%EB%A6%AC%EA%B8%B0-%EC%89%AC%EC%9A%B4-AWS-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%9D%98-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-%EB%B0%8F-%EB%A1%9C%EA%B9%85-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%95%EB%A6%AC</guid>
+    <description>AWS에는 수많은 서비스가 존재합니다. 데이터베이스부터 네트워크, 컴퓨팅, 로그 모니터링 등 폭 넓은 분야를 다루는 AWS 서비스는 그 수만 200개가 넘는데요. 같은 분야 안에 있는 서비스라 하더라도 쓰임새가 조금씩 달라서 각 차이를 명확히 알아야 올바르고 효율적으로 사용 가능합니다.</description>
+    <pubDate>Mon, 04 Nov 2024 00:00:00 GMT</pubDate>
+  </item><item>
     <title>[2024 우아콘 후기] 프롬프트 엔지니어링, 클라우드 관리 및 컴플라이언스 관련 세션</title>
     <link>https://guide-to-devops.github.io/blog/2024-%EC%9A%B0%EC%95%84%EC%BD%98-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0---2</link>
     <guid>https://guide-to-devops.github.io/blog/2024-%EC%9A%B0%EC%95%84%EC%BD%98-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0---2</guid>
@@ -59,12 +65,6 @@
     <guid>https://guide-to-devops.github.io/blog/Kubernetes%EC%9D%98-%EA%B2%BD%EB%9F%89%ED%99%94-%EB%B2%84%EC%A0%84-%EB%B9%84%EA%B5%90---minikube-vs-k3s-vs-k0s</guid>
     <description>Kubernetes 경량화 버전이란? Kubernetes는 컨테이너를 배포 및 관리할 수 있는 강력한 플랫폼입니다. 하지만 처음부터 Kubernetes 클러스터를 구축하려면 설치 과정이 복잡하고, 클러스터 구축에 많은 리소스가 요구된다는 단점이 있습니다. 이런 어려움을 해결하기 위해, 클러스터를 가볍고 편리하게 구축할 수 있도록 도와주는 Kubernetes의 경량화 버전들이 많이 나오고 있는데요.</description>
     <pubDate>Sun, 29 Sep 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Elasticsearch 및 Kibana의 오픈소스 라이선스 적용 선언</title>
-    <link>https://guide-to-devops.github.io/blog/Elasticsearch-%EB%B0%8F-Kibana%EC%97%90-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%EC%A0%81%EC%9A%A9-%EC%84%A0%EC%96%B8</link>
-    <guid>https://guide-to-devops.github.io/blog/Elasticsearch-%EB%B0%8F-Kibana%EC%97%90-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%EC%A0%81%EC%9A%A9-%EC%84%A0%EC%96%B8</guid>
-    <description>✨Elastic의 오픈소스 라이선스 적용 선언 2024년 8월 말, Elastic은 Elasticsearch 및 Kibana에 오픈소스 라이선스를 다시 적용하겠다고 발표했습니다. (원문 링크) 현재 Elasticsearch 및 Kibana 최신 버전(v8.15.1) 이후에 릴리즈되는 버전부터 AGPL v3.0(GNU Affero General Public License v3.0) 라이선스가 적용될 수 있도록 수정할 예정이라는 게 이번 발표의 요지인데요.</description>
-    <pubDate>Sun, 22 Sep 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
